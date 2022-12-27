@@ -1,0 +1,7 @@
+.cont{
+    width: 300px;
+    padding: 20px;
+    margin: 50px  auto ;
+    box-shadow: 0 0 10px black;
+    display: block;
+}

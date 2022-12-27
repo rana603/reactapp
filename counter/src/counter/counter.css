@@ -1,0 +1,22 @@
+.cont{
+    display: block;
+    border: 2px solid red;
+    margin: 50px auto;
+    width: 400px;
+}
+.subcont{
+    display: flex;
+    border: 2px solid red;
+    margin: 70px auto;
+    padding: 10px;
+    max-height: 100px;
+    width: 250px;
+}
+h4{
+    margin: 12px;
+    text-align: center;
+}
+button{
+    background-color: #fff;
+    border: none;
+}
