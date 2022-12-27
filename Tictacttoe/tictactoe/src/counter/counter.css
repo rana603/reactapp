@@ -1,0 +1,18 @@
+.cont{
+    border:2px solid red;
+    margin: 50px 350px;
+}
+.subcount{
+    display: flex;
+    margin :40px;
+    border:2px solid red;
+    text-align: center;
+}
+h4{
+    text-align: center;
+    margin: 20px;
+}
+button{
+    height: 30px;
+    margin-top: 20px;
+}
