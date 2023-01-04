@@ -9,13 +9,25 @@ function Counter2() {
 
    
     const handleChange=(value)=>{
+      if (counta>0){
         setCounta(counta+value);
+    }else{
+      setCounta(counta);
     }
+  }
     const handleChangeb=(value)=>{
-        setCountb(countb+value);
+      if (countb>0){
+        setCounta(countb+value);
+    }else{
+      setCounta(countb);
+    }
     }
     const handleChangec=(value)=>{
-        setCountc(countc+value);
+        if (countc>0){
+          setCounta(countc+value);
+      }else{
+        setCounta(countc);
+      }
     }
   return (
     <div className='cnt'>
